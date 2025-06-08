@@ -16,47 +16,47 @@ print(f'Hello, my name is {name} and I am {age}')
 
 # String Methods
 
-s = 'helloworld'
+fullname=" Khandaker Ali Ariyan "
 
 # Capitalize string
-print(s.capitalize())
+print(fullname.capitalize())
 
 # Make all uppercase
-print(s.upper())
+print(fullname.upper())
 
 # Make all lower
-print(s.lower())
+print(fullname.lower())
 
 # Swap case
-print(s.swapcase())
+print(fullname.swapcase())
 
 # Get length
-print(len(s))
+print(len(fullname))
 
 # Replace
-print(s.replace('world', 'everyone'))
+print(fullname.replace('Ariyan', 'Samir'))
 
 # Count
-sub = 'h'
-print(s.count(sub))
+sub = 'a'
+print(fullname.count(sub))
 
 # Starts with
-print(s.startswith('hello'))
+print(fullname.startswith('Khandaker'))
 
 # Ends with
-print(s.endswith('d'))
+print(fullname.endswith(' '))
 
 # Split into a list
-print(s.split())
+print(fullname.split())
 
 # Find position
-print(s.find('r'))
+print(fullname.find('r'))
 
 # Is all alphanumeric
-print(s.isalnum())
+print(fullname.isalnum())
 
 # Is all alphabetic
-print(s.isalpha())
+print(fullname.isalpha())
 
 # Is all numeric
-print(s.isnumeric())
+print(fullname.isnumeric())
